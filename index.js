@@ -1,3 +1,11 @@
-const hello = require('./hello');
+const express = require('express');
 
-console.log(hello());
+const app = express();
+
+app.get('/', (req, res) => {
+  res.send('Hello Express app!')
+});
+
+app.listen(3000, () => {
+  console.log('server started');
+});

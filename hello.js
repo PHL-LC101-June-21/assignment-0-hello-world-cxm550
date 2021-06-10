@@ -1,7 +1,5 @@
-function hello() {
-	// TODO: change this string so that your program prints "Hello world!" 
-	// when you hit the replit run button
-	return "Hello!";
-}
- 
-module.exports = hello;
+class Simple{  
+    public static void main(String args[]){  
+     System.out.println("Hello world");  
+    }  
+}  
